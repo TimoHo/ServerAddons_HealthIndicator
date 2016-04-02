@@ -1,0 +1,8 @@
+name: TModsServerAddons_HealthIndicator
+main: me.tmods.serveraddons.HealthIndicator
+version: 1.51
+author: Timo Hocker
+website: http://timosmods.weebly.com
+
+depends:
+ - TModsServerUtils
