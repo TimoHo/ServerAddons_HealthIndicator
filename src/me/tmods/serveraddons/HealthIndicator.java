@@ -33,10 +33,10 @@ public class HealthIndicator extends JavaPlugin implements Listener{
 			if (newName == null) {
 				newName = "";
 			}
-			if (!newName.contains(Methods.getLang("health"))) {
+			if (!newName.contains("health")) {
 				name = newName;
 			}
-			event.getEntity().setCustomName(((LivingEntity)event.getEntity()).getHealth() / 2 + " " + Methods.getLang("health"));
+			event.getEntity().setCustomName(((LivingEntity)event.getEntity()).getHealth() / 2 + " " + "health");
 			Bukkit.getScheduler().scheduleSyncDelayedTask(this, new Runnable(){
 				@Override
 				public void run() {
